@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0;
+}
+
+body{
+    background-color: rgb(49, 44, 44);
+    /* background-color: rgb(13, 13, 26); */
+    color: white;
+}
+
+.company{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+
+.company-logo h2{
+    display: flex;
+    margin-top: 5px;
+}
+
+.company-searchbar{
+    display: flex;
+    padding-right: 200px;
+}
+
+.heading{
+    margin-top: 12px;
+    padding-left: 100px;
+}
+
+.company-searchbar{
+    padding-left: 200px;
+    position: static;
+}
+
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.company-searchbar-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  /* transform: translateY(-50%); */
+  font-size: 18px;
+  color: gray;
+}
+
+.search-wrapper input {
+  height: 35px;
+  width: 300px;
+  border-radius: 30px;
+  padding-left: 40px; 
+  border: 1px none #ccc;
+  background-color: rgb(49, 44, 44);
+  color: gray;
+}
+
+.company-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.side-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 30px;
+    padding-left: 30px;
+}
+
+.title-logo{
+    display: flex;
+    gap: 10px;
+}
+
+.main-content, .main-images{
+    display: flex;
+    
+}
+
+.main-images{
+    margin-top: 10px;
+    padding-left: 140px;
+    gap: 30px;
+}
+
+.main-images img {
+  border-radius: 20px; 
+} 
+
+.second-images{
+    margin-top: 30px;
+    padding-left: 320px;
+}
+
+.second-images img {
+  border-radius: 20px; 
+} 
+
+/* .main-content, .main-images .second-images{
+    display: grid;
+} */
+
+/* .main-images {
+  margin-top: 10px;
+  padding-left: 140px;
+  gap: 30px;
+}
+
+.main-images img {
+  border-radius: 20px; 
+} */
